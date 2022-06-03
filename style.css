@@ -6,8 +6,11 @@
 img{
     justify-items: start ;
     align-items: center;
+    width: 25%;
+    
 
 }
 section{
-    align-items: center/end;
+    align-items: center;
+    justify-items: end;
 }
