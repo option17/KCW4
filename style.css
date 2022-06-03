@@ -2,11 +2,13 @@
     display: grid;
   grid-auto-flow: column;
   height: 50px;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
   
+
   align-items: center;
   justify-items: start;
 }
-img{
+#fun{
    
     width: 25%;
     
@@ -14,4 +16,11 @@ img{
 }
 section{
     justify-self: end;
+}
+img{
+    width: 20%;
+    justify-self: center;
+    align-self: center;
+    
+    
 }
