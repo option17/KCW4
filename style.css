@@ -1,0 +1,13 @@
+#header{
+    display: grid;
+  grid-auto-flow: column;
+  height: 50px;
+}
+img{
+    justify-items: start ;
+    align-items: center;
+
+}
+section{
+    align-items: center/end;
+}
